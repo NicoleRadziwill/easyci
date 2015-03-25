@@ -1,0 +1,27 @@
+<!--
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{Contributing to easyci development}
+-->
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  error = FALSE,
+  tidy = FALSE
+)
+```
+
+# Contributing to easyci development
+
+The goal of this guide is to help you get up and contributing to easyci 
+as quickly as possible. It's still a work in progress and very rough. 
+Your feedback is much appreciated and so are pull requests :).
+
+To contribute a change to easyci, you follow these steps:
+
+1. Set up a local easyci development environment.
+1. Create a branch in git and make your changes.
+1. Push branch to github and issue pull request (PR).
+1. Discuss the pull request.
+1. Iterate until either we accept the PR or decide that it's not
+   a good fit for easyci.
