@@ -1,0 +1,20 @@
+Package: easyci
+Type: Package
+Title: Easily Compute Confidence Intervals
+Version: 0.1.0
+Authors@R: c(
+    person("Nicole", "Radziwill", role = c("aut", "cre"), email = "nicole.radziwill@gmail.com"),
+    person("Morgan", "Benton", role = "aut", email = "morgan.benton@gmail.com")
+    )
+Description: Computes confidence intervals
+    for a given sample.
+Depends:
+    R (>= 3.1.0)
+Imports:
+Suggests:
+VignetteBuilder: knitr
+Roxygen: list(wrap = FALSE)
+License: GPL-2
+URL: https://github.com/nicoleradziwill/easyci
+BugReports: https://github.com/nicoleradziwill/easyci/issues
+LazyData: true
